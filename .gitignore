@@ -29,3 +29,6 @@
 
 # Apple specific
 .DS_Store
+DerivedData/
+build/
+.Trashes

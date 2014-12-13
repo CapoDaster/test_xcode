@@ -6,10 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		F291BBB81A3C97E8004B24BC /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		F291BBB91A3C97E8004B24BC /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		F291BBBA1A3C97E8004B24BC /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		F291BBBB1A3C97E8004B24BC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F291BBBC1A3C97E8004B24BC /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		F291BBAD1A3C97A1004B24BC = {
 			isa = PBXGroup;
 			children = (
+				F291BBB81A3C97E8004B24BC /* bin */,
+				F291BBB91A3C97E8004B24BC /* build */,
+				F291BBBA1A3C97E8004B24BC /* include */,
+				F291BBBB1A3C97E8004B24BC /* Makefile */,
+				F291BBBC1A3C97E8004B24BC /* src */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +36,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/sh/Documents/Programming/C++/tutorial-xcode";
 			dependencies = (
 			);
 			name = project;

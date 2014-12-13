@@ -1,5 +1,6 @@
 CC := clang++ # This is the main compiler
 # CC := clang --analyze # and comment out the linker last line for sanity
+
 SRCDIR := src
 BUILDDIR := build
 TARGET := bin/runner
